@@ -1,5 +1,11 @@
-sdfjsadfsadf
-asdf
-safsad
-asfd
+-----Command to install user packages to user locations -------------
+pip install --user pylint
+
+-----Command to find where pylint executable is installed  ----------
+pip show -f pylint
+
+-----Command to add the directory to system PATH to use pylint:
+export PATH=$HOME/.local/bin:$PATH
+
+-----
 
