@@ -7,5 +7,23 @@ pip show -f pylint
 -----Command to add the directory to system PATH to use pylint:
 export PATH=$HOME/.local/bin:$PATH
 
------
+-----Command for Django Framework--------
+
+PATH="/Users/amit/opt/anaconda3/bin:$PATH"
+
+conda install django
+
+conda create --name myDjangoEnv django
+
+conda info --envs
+
+source activate MyDjangoEnv
+
+source deactivate MyDjangoEnv
+
+django-admin startproject first_project
+
+python manage.py runserver
+
+python manage.py startapp first_app
 
