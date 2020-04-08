@@ -27,3 +27,9 @@ python manage.py runserver
 
 python manage.py startapp first_app
 
+
+------Commands for model -----
+python manage.py migrate
+ls -lrt
+python manage.py makemigrations first_app
+
